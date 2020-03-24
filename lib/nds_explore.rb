@@ -11,8 +11,8 @@ end
 def print_first_directors_movie_titles
   index = 0 
   
-  while directors_database[:name] ==index < directors_database[0][:movies].length do 
-      print directors_database[:movies][index][:title]
+  while index < directors_database[0][:movies].length do 
+      print directors_database[0][:movies][index][:title]
     
       index += 1
   end 
