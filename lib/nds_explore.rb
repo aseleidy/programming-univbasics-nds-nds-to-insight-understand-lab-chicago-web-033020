@@ -11,10 +11,10 @@ end
 def print_first_directors_movie_titles
   index = 0 
   
-  while directors_database[:name] == "Stephen Spielberg" && index < directors_database.length do 
-    puts directors_database[index]
+  while directors_database[:name] == "Stephen Spielberg" && index < directors_database[:movies].length do 
+      puts directors_database[:movies][index][:title]
     
-    index += 1
+      index += 1
   end 
 
 end
